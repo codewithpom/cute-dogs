@@ -1,0 +1,12 @@
+# I am going to create something like live server vscode extension but for cli so for protection
+node_modules/
+# As I am using vim so I do not want backup files
+*~
+*.swp
+
+
+
+
+
+
+
