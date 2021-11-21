@@ -8,10 +8,10 @@ function set_image(image_src) {
 }
 
 
-document.onload = function () {
+document.body.onload = function () {
     fetch('https://random.dog/woof.json?filter=mp4,webm')
 	.then(response => response.json())
-	.then(data => console.log("Done"))
+	.then(data => set_image(data.url))
 	.catch(err => console.error(err));
 }
 
