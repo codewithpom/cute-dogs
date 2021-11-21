@@ -1,3 +1,5 @@
+
+
 function set_image(image_src) {
     const image = document.getElementById("image")
     image.onload = function () {
@@ -6,6 +8,17 @@ function set_image(image_src) {
     }
     image.src = image_src;
 }
+
+document.getElementById('button').addEventListener("click", function(){
+	console.log("Clicked and wants something new");
+	document.getElementById("heading").innerText = "Loading a new cute puppy";
+	fetch('https://random.dog/woof.json?filter=mp4,webm')
+		.then(response => response.json())
+		.then(data => set_image(data.url))
+		.catch(err => console.error(err));
+
+
+});
 
 
 document.body.onload = function () {
