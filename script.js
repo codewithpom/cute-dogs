@@ -34,3 +34,11 @@ document.body.onload = function () {
 	new_dog();
 }
 
+document.addEventListener('keydown', function(event) {
+	if (event.keyCode === 78){
+		console.log(event.keyCode)
+		new_dog();
+	}
+});
+
+
