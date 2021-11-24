@@ -12,7 +12,7 @@ There are not many keybindings yet but there is one which is
 I am wating for contributors so please open an issue if there is a bug or an **idea** and open a **PR** if you want to fix something or add something.
 
 # Bye
-I am a fellow open-source contributor but you read till the end so very very Thanks :slight_smile:
+I am a fellow open-source contributor but you read till the end so very very Thanks 🙂
 
 
 
